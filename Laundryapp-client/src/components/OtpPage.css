@@ -1,0 +1,34 @@
+
+.otp_container form{
+    padding: 20px;
+    
+}
+.otp_container .auth_btn{
+    margin: auto;
+    margin-top: 40vh;
+}
+
+
+
+.otp_input input {
+    width: 70px;
+    height: 60px;
+    padding: 0;
+    border-radius: 4px;
+    background: #fff;
+    transition: .3s ease-in-out;
+    font-weight: bold;
+}
+@media (max-width:350px) {
+    .otp_input input {
+        width: 50px;
+        height: 40px;
+    }
+    .otp_container{
+        padding-top: 30vh;
+    }
+    .otp_container .auth_btn{
+        margin-top: 20vh;
+    }
+
+}
